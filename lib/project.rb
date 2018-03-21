@@ -9,10 +9,6 @@ class Project
     @title = title
   end
 
-  def backers
-    @@backers
-  end
-
   def add_backer(backer)
     self.class.backers << backer
     backer.class.backed_projects << self
