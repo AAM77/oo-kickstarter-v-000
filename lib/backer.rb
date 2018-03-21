@@ -18,7 +18,4 @@ class Backer
   end
 
 
-
-
-
 end
