@@ -14,5 +14,6 @@ class Project
 
   def add_backer(name)
     self.backers << name
+  end
 
 end
