@@ -10,5 +10,6 @@ class Project
 
   def self.backers
     @@backers
+  end
 
 end
