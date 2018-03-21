@@ -8,7 +8,7 @@ class Project
     @title = title
   end
 
-  def self.backers
+  def backers
     @@backers
   end
 
